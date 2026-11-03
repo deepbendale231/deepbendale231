@@ -28,13 +28,13 @@ Eligibility rules, then a calibrated, monotone XGBoost default-risk model, then 
 A product teardown of a digital lending flow: friction log, RBI digital-lending checklist, RICE prioritisation, user stories, PRD, A/B test plan and metrics tree.
 
 ### [Pollution Analytics](https://github.com/deepbendale231/Pollution-Analytics)
-Air-quality analysis and AQI prediction across Indian cities: 3,400+ readings, a Random Forest model (R² 0.91, MAE 7.8 µg/m³), FastAPI backend and Streamlit dashboard.
+Air-quality analysis and AQI prediction across Indian cities: 3,240 readings across 270 cities, a Random Forest model (R² 0.95, MAE 6.4), FastAPI backend and Streamlit dashboard.
 
 ### [RAG Teaching Assistant](https://github.com/deepbendale231/RAG-BASED-Teaching-LLM)
 Turns video lectures into a searchable knowledge base (transcribe, chunk, embed, retrieve) and answers questions with a local LLM.
 
 ### [HouseIQ](https://github.com/deepbendale231/House-Prediction-ML-Model-)
-House-price prediction with scikit-learn pipelines, a FastAPI service, a Next.js frontend and Supabase.
+House-price prediction (R² 0.83 on California housing) with a scikit-learn pipeline, FastAPI service, Next.js frontend and Supabase.
 
 ---
 
