@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg?v=3" alt="Deep Bendale: Applied AI Engineer and Data Scientist" width="100%">
+<img src="assets/banner-v2.svg" alt="Deep Bendale: Applied AI Engineer and Data Scientist" width="100%">
 
 <br>
 
@@ -18,15 +18,15 @@
 
 </div>
 
-<p align="center"><img src="assets/terminal.svg?v=3" alt="Terminal: whoami, Deep Bendale, Applied AI Engineer and Data Scientist, Mumbai, open to freelance and full-time" width="100%"></p>
+<p align="center"><img src="assets/terminal-v2.svg" alt="Terminal: whoami, Deep Bendale, Applied AI Engineer and Data Scientist, Mumbai, open to freelance and full-time" width="100%"></p>
 
-<p align="center"><img src="assets/divider.svg?v=3" width="100%" alt=""></p>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## 📊 Work in numbers
 
-<p align="center"><img src="assets/metrics.svg?v=3" alt="0.763 ROC-AUC on a credit risk model, 3.84 points more approvals at the same default rate, 307K loan applications, 150K ride bookings, 3,240 air-quality readings" width="100%"></p>
+<p align="center"><img src="assets/metrics-v2.svg" alt="0.763 ROC-AUC on a credit risk model, 3.84 points more approvals at the same default rate, 307K loan applications, 150K ride bookings, 3,240 air-quality readings" width="100%"></p>
 
-<p align="center"><img src="assets/divider.svg?v=3" width="100%" alt=""></p>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## 🚀 Selected work
 
@@ -84,7 +84,7 @@ Air-quality analysis and AQI prediction across Indian cities: 3,240 readings acr
 
 Also: [Uber NCR Ride Analytics](https://github.com/deepbendale231/Uber-Analytics) (150K bookings, API and [live dashboard](https://uber-analytics.onrender.com)) and [HouseIQ](https://github.com/deepbendale231/House-Prediction-ML-Model-) (house-price model with a Next.js frontend).
 
-<p align="center"><img src="assets/divider.svg?v=3" width="100%" alt=""></p>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## 💼 Experience
 
@@ -121,11 +121,11 @@ New Vision Technologies and Engineers, Mumbai<br>
 **B.Tech, Information Technology**: Dwarkadas J. Sanghvi College of Engineering, Mumbai · 2023 to May 2027 · CGPA 9.00 / 10
 <br><sub>Wharton Business Analytics · IIT Madras BS in Data Science (Foundation)</sub>
 
-<p align="center"><img src="assets/divider.svg?v=3" width="100%" alt=""></p>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## 🛠 Tech stack
 
-<p align="center"><img src="assets/stack.svg?v=3" alt="Scrolling strip of technologies: Python, FastAPI, scikit-learn, XGBoost, SHAP, Docker, Next.js and more" width="100%"></p>
+<p align="center"><img src="assets/stack.svg" alt="Scrolling strip of technologies: Python, FastAPI, scikit-learn, XGBoost, SHAP, Docker, Next.js and more" width="100%"></p>
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=py,fastapi,sklearn,docker,git,github,nextjs,ts,postgres,mysql,supabase,vercel,linux&perline=8" alt="Python, FastAPI, scikit-learn, Docker, Git, GitHub, Next.js, TypeScript, Postgres, MySQL, Supabase, Vercel, Linux">
@@ -142,7 +142,7 @@ New Vision Technologies and Engineers, Mumbai<br>
 <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white">
 </p>
 
-<p align="center"><img src="assets/divider.svg?v=3" width="100%" alt=""></p>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## 🧭 How I work
 
@@ -154,7 +154,7 @@ New Vision Technologies and Engineers, Mumbai<br>
 </tr>
 </table>
 
-<p align="center"><img src="assets/divider.svg?v=3" width="100%" alt=""></p>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 ## 🤝 Let's work together
 
