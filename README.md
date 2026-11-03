@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Deep Bendale: Applied AI Engineer and Consultant" width="100%">
+<img src="assets/banner.svg" alt="Deep Bendale: Applied AI Engineer and Data Scientist" width="100%">
 
 <br>
 
@@ -10,9 +10,9 @@
 
 # Hi there 👋, I'm Deep
 
-**I'm an Applied AI Engineer and consultant. I turn business problems into working AI products: credit risk models, RAG pipelines and analytics APIs, shipped end to end with tests, docs and honest evaluation.**
+**I'm an Applied AI Engineer and Data Scientist based in Mumbai, India. I turn business problems into working AI products: credit risk models, RAG pipelines and analytics APIs, shipped end to end with tests, docs and honest evaluation.**
 
-🟢 Taking on consulting and freelance projects, and open to full-time Applied AI / ML engineering roles.
+🟢 Open to freelance projects and full-time Applied AI / ML / data science roles.
 
 [**Selected work**](#-selected-work) · [**Tech stack**](#-tech-stack) · [**How I work**](#-how-i-work) · [**Contact**](#-lets-work-together)
 
