@@ -14,7 +14,7 @@
 
 ## 👤 About
 
-<img src="assets/about-v1.svg" alt="About Deep Bendale. I'm an Applied AI Engineer and Data Scientist from Mumbai. I like problems where data has to become a decision someone can trust: a credit policy that explains itself, an assistant that points to its source, a dashboard that replaces a weekly spreadsheet. I build the whole path, from cleaning the data and validating the model to the API, the interface and the deploy. I also write C++ audio plugins, which keeps me honest about performance and how software behaves in the real world. I'm a B.Tech student in Information Technology at DJSCE, Mumbai, and currently lead a cloud-sync feature for a DAW plugin during my internship." width="100%">
+<img src="assets/about-v2.svg" alt="About Deep Bendale. I'm an Applied AI Engineer from Mumbai, and I like building real systems end to end. Right now I lead the cloud-sync feature for Ainsemble's DAW plugin: a cross-platform C++ plugin that syncs a producer's projects to the cloud, owned from requirements to release. Day to day that means architecture decisions, testing inside real DAW hosts, and shipping Windows and macOS installers. I also love working with data. Credit risk models, RAG assistants and analytics APIs are how I learn what a good system needs underneath. I'm a B.Tech IT student at DJSCE, Mumbai." width="100%">
 
 <br>
 
