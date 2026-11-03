@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Deep Bendale: Engineer, ML and data systems" width="100%">
+<img src="assets/banner.svg" alt="Deep Bendale: Applied AI Engineer and Consultant" width="100%">
 
 <br>
 
@@ -10,9 +10,9 @@
 
 # Hi there 👋, I'm Deep
 
-**I'm an engineer who builds ML and data systems end to end: credit risk models, RAG pipelines and analytics APIs, shipped with tests, docs and honest evaluation.**
+**I'm an Applied AI Engineer and consultant. I turn business problems into working AI products: credit risk models, RAG pipelines and analytics APIs, shipped end to end with tests, docs and honest evaluation.**
 
-🟢 Open to freelance projects and full-time roles in ML, data and AI engineering.
+🟢 Taking on consulting and freelance projects, and open to full-time Applied AI / ML engineering roles.
 
 [**Selected work**](#-selected-work) · [**Tech stack**](#-tech-stack) · [**How I work**](#-how-i-work) · [**Contact**](#-lets-work-together)
 
@@ -119,7 +119,7 @@ Also: [Uber NCR Ride Analytics](https://github.com/deepbendale231/Uber-Analytics
 
 <div align="center">
 
-I take on ML, data and API projects end to end, from messy data to a deployed, documented service.
+I consult on and build applied AI projects end to end: scoping the problem, modelling, the API and UI, and a deployed, documented service.
 
 [![Email me](https://img.shields.io/badge/Email-deepbendale231%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deepbendale231@gmail.com)
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepbendale/)
