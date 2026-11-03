@@ -1,30 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/><stop offset="0.55" stop-color="#101a2b"/><stop offset="1" stop-color="#16243d"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/>
-    </linearGradient>
-    <style>
-      .fade{animation:fade 1.4s ease-out both}
-      .d1{animation-delay:.15s}.d2{animation-delay:.45s}.d3{animation-delay:.75s}
-      @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-      .pulse{animation:pulse 3s ease-in-out infinite}
-      @keyframes pulse{0%,100%{opacity:.25}50%{opacity:.6}}
-    </style>
-  </defs>
-  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
-  <g stroke="#58a6ff" stroke-opacity=".10">
-    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/><path d="M150 0V300M300 0V300M450 0V300M600 0V300M750 0V300M900 0V300M1050 0V300"/>
-  </g>
-  <circle class="pulse" cx="1010" cy="95" r="70" fill="none" stroke="url(#accent)" stroke-width="2"/>
-  <circle class="pulse" cx="1010" cy="95" r="38" fill="none" stroke="url(#accent)" stroke-width="2"/>
-  <circle cx="1010" cy="95" r="6" fill="#58a6ff"/>
-  <g stroke="#58a6ff" stroke-opacity=".5" fill="none"><path d="M870 210L930 170L990 190L1050 140L1110 160"/></g>
-  <g fill="#3fb950"><circle cx="870" cy="210" r="4"/><circle cx="930" cy="170" r="4"/><circle cx="990" cy="190" r="4"/><circle cx="1050" cy="140" r="4"/><circle cx="1110" cy="160" r="4"/></g>
-  <text class="fade d1" x="70" y="130" fill="#e6edf3" font-size="62" font-weight="700" letter-spacing="1">Deep Bendale</text>
-  <rect class="fade d2" x="72" y="148" width="150" height="5" rx="2.5" fill="url(#accent)"/>
-  <text class="fade d2" x="70" y="195" fill="#58a6ff" font-size="26" font-weight="600">Applied AI Engineer &amp; Data Scientist</text>
-  <text class="fade d3" x="70" y="240" fill="#8b949e" font-size="20">Mumbai, India   ·   github.com/deepbendale231   ·   linkedin.com/in/deepbendale</text>
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='340' viewBox='0 0 1200 340' font-family='-apple-system,Segoe UI,Helvetica,Arial,sans-serif'>
+<defs>
+<linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#05070d'/><stop offset='.6' stop-color='#0b1226'/><stop offset='1' stop-color='#13213f'/></linearGradient>
+<linearGradient id='name' x1='0' y1='0' x2='1' y2='0'><stop offset='0' stop-color='#58a6ff'><animate attributeName='stop-color' values='#58a6ff;#3fb950;#d2a8ff;#58a6ff' dur='8s' repeatCount='indefinite'/></stop><stop offset='1' stop-color='#d2a8ff'><animate attributeName='stop-color' values='#d2a8ff;#58a6ff;#3fb950;#d2a8ff' dur='8s' repeatCount='indefinite'/></stop></linearGradient>
+<filter id='glow' x='-30%' y='-30%' width='160%' height='160%'><feGaussianBlur stdDeviation='6' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter>
+<radialGradient id='orb' cx='.5' cy='.5' r='.5'><stop offset='0' stop-color='#58a6ff' stop-opacity='.35'/><stop offset='1' stop-color='#58a6ff' stop-opacity='0'/></radialGradient>
+</defs>
+<rect width='1200' height='340' rx='16' fill='url(#bg)'/>
+<g stroke='#58a6ff' stroke-opacity='.07'><path d='M0 40H1200'/><path d='M0 80H1200'/><path d='M0 120H1200'/><path d='M0 160H1200'/><path d='M0 200H1200'/><path d='M0 240H1200'/><path d='M0 280H1200'/><path d='M0 320H1200'/><path d='M40 0V340'/><path d='M80 0V340'/><path d='M120 0V340'/><path d='M160 0V340'/><path d='M200 0V340'/><path d='M240 0V340'/><path d='M280 0V340'/><path d='M320 0V340'/><path d='M360 0V340'/><path d='M400 0V340'/><path d='M440 0V340'/><path d='M480 0V340'/><path d='M520 0V340'/><path d='M560 0V340'/><path d='M600 0V340'/><path d='M640 0V340'/><path d='M680 0V340'/><path d='M720 0V340'/><path d='M760 0V340'/><path d='M800 0V340'/><path d='M840 0V340'/><path d='M880 0V340'/><path d='M920 0V340'/><path d='M960 0V340'/><path d='M1000 0V340'/><path d='M1040 0V340'/><path d='M1080 0V340'/><path d='M1120 0V340'/><path d='M1160 0V340'/></g>
+<circle cx='900' cy='170' r='260' fill='url(#orb)'><animate attributeName='r' values='240;290;240' dur='6s' repeatCount='indefinite'/></circle>
+<line x1='951' y1='107' x2='874' y2='122' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='951' y1='107' x2='990' y2='183' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='1024' y1='54' x2='1048' y2='65' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='1024' y1='54' x2='1054' y2='60' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='694' y1='304' x2='679' y2='289' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='694' y1='304' x2='719' y2='310' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='716' y1='217' x2='708' y2='252' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='716' y1='217' x2='683' y2='233' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='679' y1='289' x2='719' y2='310' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='839' y1='49' x2='866' y2='76' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='839' y1='49' x2='805' y2='82' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='708' y1='252' x2='683' y2='233' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='1048' y1='65' x2='1054' y2='60' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='866' y1='76' x2='874' y2='122' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='746' y1='144' x2='740' y2='187' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='746' y1='144' x2='670' y2='143' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='670' y1='143' x2='667' y2='98' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='667' y1='98' x2='684' y2='60' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='916' y1='244' x2='830' y2='284' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='916' y1='244' x2='990' y2='183' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='767' y1='306' x2='719' y2='310' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='767' y1='306' x2='830' y2='284' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='740' y1='187' x2='716' y2='217' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='805' y1='82' x2='866' y2='76' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='812' y1='220' x2='830' y2='284' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='812' y1='220' x2='740' y2='187' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='684' y1='60' x2='670' y2='143' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='1057' y1='190' x2='990' y2='183' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='1057' y1='190' x2='1096' y2='262' stroke='#58a6ff' stroke-opacity='.28'/>
+<line x1='1096' y1='262' x2='990' y2='183' stroke='#58a6ff' stroke-opacity='.28'/>
+<circle r='3' fill='#3fb950' filter='url(#glow)'><animateMotion dur='2.5s' begin='0.0s' repeatCount='indefinite' path='M951 107 L874 122'/></circle>
+<circle r='3' fill='#58a6ff' filter='url(#glow)'><animateMotion dur='3.2s' begin='0.4s' repeatCount='indefinite' path='M951 107 L990 183'/></circle>
+<circle r='3' fill='#d2a8ff' filter='url(#glow)'><animateMotion dur='3.9s' begin='0.8s' repeatCount='indefinite' path='M1024 54 L1048 65'/></circle>
+<circle r='3' fill='#f0883e' filter='url(#glow)'><animateMotion dur='4.6s' begin='1.2s' repeatCount='indefinite' path='M1024 54 L1054 60'/></circle>
+<circle r='3' fill='#3fb950' filter='url(#glow)'><animateMotion dur='5.3s' begin='1.6s' repeatCount='indefinite' path='M694 304 L679 289'/></circle>
+<circle r='3' fill='#58a6ff' filter='url(#glow)'><animateMotion dur='2.5s' begin='2.0s' repeatCount='indefinite' path='M694 304 L719 310'/></circle>
+<circle r='3' fill='#d2a8ff' filter='url(#glow)'><animateMotion dur='3.2s' begin='2.4s' repeatCount='indefinite' path='M716 217 L708 252'/></circle>
+<circle r='3' fill='#f0883e' filter='url(#glow)'><animateMotion dur='3.9s' begin='0.0s' repeatCount='indefinite' path='M716 217 L683 233'/></circle>
+<circle r='3' fill='#3fb950' filter='url(#glow)'><animateMotion dur='4.6s' begin='0.4s' repeatCount='indefinite' path='M679 289 L719 310'/></circle>
+<circle r='3' fill='#58a6ff' filter='url(#glow)'><animateMotion dur='5.3s' begin='0.8s' repeatCount='indefinite' path='M839 49 L866 76'/></circle>
+<circle r='3' fill='#d2a8ff' filter='url(#glow)'><animateMotion dur='2.5s' begin='1.2s' repeatCount='indefinite' path='M839 49 L805 82'/></circle>
+<circle r='3' fill='#f0883e' filter='url(#glow)'><animateMotion dur='3.2s' begin='1.6s' repeatCount='indefinite' path='M708 252 L683 233'/></circle>
+<circle r='3' fill='#3fb950' filter='url(#glow)'><animateMotion dur='3.9s' begin='2.0s' repeatCount='indefinite' path='M1048 65 L1054 60'/></circle>
+<circle r='3' fill='#58a6ff' filter='url(#glow)'><animateMotion dur='4.6s' begin='2.4s' repeatCount='indefinite' path='M866 76 L874 122'/></circle>
+<circle r='3' fill='#d2a8ff' filter='url(#glow)'><animateMotion dur='5.3s' begin='0.0s' repeatCount='indefinite' path='M746 144 L740 187'/></circle>
+<circle r='3' fill='#f0883e' filter='url(#glow)'><animateMotion dur='2.5s' begin='0.4s' repeatCount='indefinite' path='M746 144 L670 143'/></circle>
+<circle r='3' fill='#3fb950' filter='url(#glow)'><animateMotion dur='3.2s' begin='0.8s' repeatCount='indefinite' path='M670 143 L667 98'/></circle>
+<circle r='3' fill='#58a6ff' filter='url(#glow)'><animateMotion dur='3.9s' begin='1.2s' repeatCount='indefinite' path='M667 98 L684 60'/></circle>
+<circle r='3' fill='#d2a8ff' filter='url(#glow)'><animateMotion dur='4.6s' begin='1.6s' repeatCount='indefinite' path='M916 244 L830 284'/></circle>
+<circle r='3' fill='#f0883e' filter='url(#glow)'><animateMotion dur='5.3s' begin='2.0s' repeatCount='indefinite' path='M916 244 L990 183'/></circle>
+<circle r='3' fill='#3fb950' filter='url(#glow)'><animateMotion dur='2.5s' begin='2.4s' repeatCount='indefinite' path='M767 306 L719 310'/></circle>
+<circle r='3' fill='#58a6ff' filter='url(#glow)'><animateMotion dur='3.2s' begin='0.0s' repeatCount='indefinite' path='M767 306 L830 284'/></circle>
+<circle r='3' fill='#d2a8ff' filter='url(#glow)'><animateMotion dur='3.9s' begin='0.4s' repeatCount='indefinite' path='M740 187 L716 217'/></circle>
+<circle r='3' fill='#f0883e' filter='url(#glow)'><animateMotion dur='4.6s' begin='0.8s' repeatCount='indefinite' path='M805 82 L866 76'/></circle>
+<circle r='3' fill='#3fb950' filter='url(#glow)'><animateMotion dur='5.3s' begin='1.2s' repeatCount='indefinite' path='M812 220 L830 284'/></circle>
+<circle r='3' fill='#58a6ff' filter='url(#glow)'><animateMotion dur='2.5s' begin='1.6s' repeatCount='indefinite' path='M812 220 L740 187'/></circle>
+<circle r='3' fill='#d2a8ff' filter='url(#glow)'><animateMotion dur='3.2s' begin='2.0s' repeatCount='indefinite' path='M684 60 L670 143'/></circle>
+<circle r='3' fill='#f0883e' filter='url(#glow)'><animateMotion dur='3.9s' begin='2.4s' repeatCount='indefinite' path='M1057 190 L990 183'/></circle>
+<circle r='3' fill='#3fb950' filter='url(#glow)'><animateMotion dur='4.6s' begin='0.0s' repeatCount='indefinite' path='M1057 190 L1096 262'/></circle>
+<circle r='3' fill='#58a6ff' filter='url(#glow)'><animateMotion dur='5.3s' begin='0.4s' repeatCount='indefinite' path='M1096 262 L990 183'/></circle>
+<circle cx='951' cy='107' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='3s' begin='0.0s' repeatCount='indefinite'/></circle>
+<circle cx='1024' cy='54' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='4s' begin='0.2s' repeatCount='indefinite'/></circle>
+<circle cx='694' cy='304' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='5s' begin='0.4s' repeatCount='indefinite'/></circle>
+<circle cx='716' cy='217' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='6s' begin='0.6s' repeatCount='indefinite'/></circle>
+<circle cx='679' cy='289' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='3s' begin='0.8s' repeatCount='indefinite'/></circle>
+<circle cx='839' cy='49' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='4s' begin='1.0s' repeatCount='indefinite'/></circle>
+<circle cx='708' cy='252' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='5s' begin='1.2s' repeatCount='indefinite'/></circle>
+<circle cx='1048' cy='65' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='6s' begin='1.4s' repeatCount='indefinite'/></circle>
+<circle cx='866' cy='76' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='3s' begin='1.6s' repeatCount='indefinite'/></circle>
+<circle cx='1054' cy='60' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='4s' begin='1.8s' repeatCount='indefinite'/></circle>
+<circle cx='746' cy='144' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='5s' begin='2.0s' repeatCount='indefinite'/></circle>
+<circle cx='683' cy='233' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='6s' begin='2.2s' repeatCount='indefinite'/></circle>
+<circle cx='670' cy='143' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='3s' begin='2.4s' repeatCount='indefinite'/></circle>
+<circle cx='667' cy='98' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='4s' begin='2.6s' repeatCount='indefinite'/></circle>
+<circle cx='916' cy='244' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='5s' begin='2.8s' repeatCount='indefinite'/></circle>
+<circle cx='767' cy='306' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='6s' begin='3.0s' repeatCount='indefinite'/></circle>
+<circle cx='740' cy='187' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='3s' begin='3.2s' repeatCount='indefinite'/></circle>
+<circle cx='805' cy='82' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='4s' begin='3.4s' repeatCount='indefinite'/></circle>
+<circle cx='812' cy='220' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='5s' begin='3.6s' repeatCount='indefinite'/></circle>
+<circle cx='719' cy='310' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='6s' begin='3.8s' repeatCount='indefinite'/></circle>
+<circle cx='684' cy='60' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='3s' begin='4.0s' repeatCount='indefinite'/></circle>
+<circle cx='830' cy='284' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='4s' begin='4.2s' repeatCount='indefinite'/></circle>
+<circle cx='1057' cy='190' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='5s' begin='4.4s' repeatCount='indefinite'/></circle>
+<circle cx='1096' cy='262' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='6s' begin='4.6s' repeatCount='indefinite'/></circle>
+<circle cx='990' cy='183' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='3s' begin='4.8s' repeatCount='indefinite'/></circle>
+<circle cx='874' cy='122' r='4.5' fill='#0d1117' stroke='#58a6ff' stroke-width='1.5'><animate attributeName='r' values='4;6;4' dur='4s' begin='5.0s' repeatCount='indefinite'/></circle>
+<text x='64' y='140' fill='url(#name)' font-size='76' font-weight='800' letter-spacing='1' filter='url(#glow)'>Deep Bendale</text>
+<rect x='66' y='162' width='0' height='5' rx='2.5' fill='#58a6ff'><animate attributeName='width' from='0' to='190' dur='1.2s' begin='.3s' fill='freeze'/></rect>
+<text x='64' y='212' fill='#e6edf3' font-size='30' font-weight='700'>Applied AI Engineer &amp; Data Scientist</text>
+<text x='64' y='256' fill='#3fb950' font-size='22' font-family='ui-monospace,SFMono-Regular,Menlo,Consolas,monospace' opacity='0'>&gt; building credit risk models<animate attributeName='opacity' values='0;1;1;0;0' keyTimes='0;.04;.22;.25;1' dur='12s' begin='0s' repeatCount='indefinite'/></text>
+<text x='64' y='256' fill='#3fb950' font-size='22' font-family='ui-monospace,SFMono-Regular,Menlo,Consolas,monospace' opacity='0'>&gt; building RAG assistants<animate attributeName='opacity' values='0;1;1;0;0' keyTimes='0;.04;.22;.25;1' dur='12s' begin='3s' repeatCount='indefinite'/></text>
+<text x='64' y='256' fill='#3fb950' font-size='22' font-family='ui-monospace,SFMono-Regular,Menlo,Consolas,monospace' opacity='0'>&gt; building analytics APIs<animate attributeName='opacity' values='0;1;1;0;0' keyTimes='0;.04;.22;.25;1' dur='12s' begin='6s' repeatCount='indefinite'/></text>
+<text x='64' y='256' fill='#3fb950' font-size='22' font-family='ui-monospace,SFMono-Regular,Menlo,Consolas,monospace' opacity='0'>&gt; building audio plugins in C++<animate attributeName='opacity' values='0;1;1;0;0' keyTimes='0;.04;.22;.25;1' dur='12s' begin='9s' repeatCount='indefinite'/></text>
+<text x='64' y='304' fill='#8b949e' font-size='17'>Mumbai, India   ·   github.com/deepbendale231   ·   linkedin.com/in/deepbendale</text>
 </svg>
