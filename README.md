@@ -1,90 +1,39 @@
 <div align="center">
 
-<img src="assets/banner-v2.svg" alt="Deep Bendale: Applied AI Engineer and Data Scientist" width="100%">
+<img src="assets/hero-v4.svg" alt="Deep Bendale: building intelligent systems. Applied AI Engineer, Data Scientist, Product Builder. Mumbai, India" width="100%">
 
-<br>
+[![GitHub](https://img.shields.io/badge/GitHub-deepbendale231-0D0D14?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D14&color=A855F7)](https://github.com/deepbendale231)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-deepbendale-0D0D14?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0D14&color=00E5FF)](https://www.linkedin.com/in/deepbendale/)
+[![Email](https://img.shields.io/badge/Email-Start%20a%20project-0D0D14?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D14&color=A855F7)](mailto:deepbendale231@gmail.com)
 
-[![GitHub](https://img.shields.io/badge/GitHub-deepbendale231-181717?style=for-the-badge&logo=github)](https://github.com/deepbendale231)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-deepbendale-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepbendale/)
-[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deepbendale231@gmail.com)
-
-# Hi there 👋, I'm Deep
-
-**I'm an Applied AI Engineer and Data Scientist based in Mumbai, India. I turn business problems into working AI products: credit risk models, RAG pipelines and analytics APIs, shipped end to end with tests, docs and honest evaluation.**
-
-🟢 Open to freelance projects and full-time Applied AI / ML / data science roles.
-
-[**Selected work**](#-selected-work) · [**Experience**](#-experience) · [**Tech stack**](#-tech-stack) · [**How I work**](#-how-i-work) · [**Contact**](#-lets-work-together)
+[**Systems**](#-featured-systems) · [**Activity**](#-activity) · [**Experience**](#-experience) · [**Stack**](#-stack) · [**Contact**](#-contact)
 
 </div>
 
-<p align="center"><img src="assets/terminal-v3.svg" alt="Terminal: whoami, Deep Bendale, Applied AI Engineer and Data Scientist, Mumbai, open to freelance and full-time" width="100%"></p>
+<br>
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
+<img src="assets/stats-v4.svg" alt="84 contributions in the last 12 months, 9 public repositories, 8 pull requests" width="100%">
 
-## 📊 Work in numbers
-
-<p align="center"><img src="assets/metrics-v2.svg" alt="0.763 ROC-AUC on a credit risk model, 3.84 points more approvals at the same default rate, 307K loan applications, 150K ride bookings, 3,240 air-quality readings" width="100%"></p>
-
-<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
-
-## 🚀 Selected work
+## 🧩 Featured systems
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### [Credit Decisioning Engine](https://github.com/deepbendale231/credit-decisioning-engine)
-Rules, then a calibrated XGBoost risk model, then an approve / refer / decline policy with SHAP reason codes. FastAPI, Streamlit, CI, Docker.
-
-- ROC-AUC **0.763** on a held-out test split
-- **+3.84 pts** approvals vs the best tuned rules at the same default rate
-- Model card, fairness audit, drift monitor, runbook
-
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-EB5E28) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### [Digital Lending Journey Teardown](https://github.com/deepbendale231/lending-journey-teardown)
-A product teardown of a digital lending flow: friction log, RBI digital-lending checklist, RICE prioritisation, user stories, PRD, A/B test plan and metrics tree.
-
-- Evidence-led, backed by 21 screenshots
-- Compliance checklist signed off after a full re-read
-
-![Product](https://img.shields.io/badge/-Product%20analysis-8957E5) ![PRD](https://img.shields.io/badge/-PRD%20%2B%20A%2FB%20plan-0969DA)
-
-</td>
+<td width="50%"><a href="https://github.com/deepbendale231/credit-decisioning-engine"><img src="assets/card-credit-v4.svg" alt="Credit Decisioning Engine: rules, calibrated XGBoost and SHAP. ROC-AUC 0.763, 3.84 points more approvals" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/deepbendale231/RAG-BASED-Teaching-LLM"><img src="assets/card-rag-v4.svg" alt="RAG Teaching Assistant: 11 videos, 105 timestamped chunks, local LLM" width="100%"></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### [RAG Teaching Assistant](https://github.com/deepbendale231/RAG-BASED-Teaching-LLM)
-Turns video lectures into a searchable index (transcribe, chunk, embed, retrieve) and answers with the video and timestamp to watch, using a local LLM.
-
-- 11 videos, 105 timestamped chunks
-- Local embeddings and local llama3.2 via Ollama
-
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Ollama](https://img.shields.io/badge/-Ollama-000000) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### [Pollution Analytics](https://github.com/deepbendale231/Pollution-Analytics)
-Air-quality analysis and AQI prediction across Indian cities: 3,240 readings across 270 cities, a Random Forest model (R² 0.95, MAE 6.4), FastAPI backend and Streamlit dashboard.
-
-- Delhi-NCR cities dominate the top-10 most polluted
-- Streamlit dashboard and FastAPI backend
-
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-
-</td>
+<td width="50%"><a href="https://github.com/deepbendale231/Uber-Analytics"><img src="assets/card-uber-v4.svg" alt="Uber NCR Ride Analytics: 150K bookings, peak hour 18:00" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/deepbendale231/Pollution-Analytics"><img src="assets/card-pollution-v4.svg" alt="Pollution Analytics: 3,240 readings across 270 cities" width="100%"></a></td>
 </tr>
 </table>
 
-Also: [Uber NCR Ride Analytics](https://github.com/deepbendale231/Uber-Analytics) (150K bookings, API and [live dashboard](https://uber-analytics.onrender.com)) and [HouseIQ](https://github.com/deepbendale231/House-Prediction-ML-Model-) (house-price model with a Next.js frontend).
+<sub>Also: [Digital Lending Journey Teardown](https://github.com/deepbendale231/lending-journey-teardown) (PRD, RICE, RBI checklist, A/B plan) · [Uber live dashboard](https://uber-analytics.onrender.com) · [HouseIQ](https://github.com/deepbendale231/House-Prediction-ML-Model-)</sub>
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
+## 📈 Activity
+
+<img src="assets/activity-v4.svg" alt="Contribution heatmap for the last 52 weeks" width="100%">
+
+<img src="assets/langs-v4.svg" alt="Language share across public repositories and weekly coding activity" width="100%">
 
 ## 💼 Experience
 
@@ -121,50 +70,10 @@ New Vision Technologies and Engineers, Mumbai<br>
 **B.Tech, Information Technology**: Dwarkadas J. Sanghvi College of Engineering, Mumbai · 2023 to May 2027 · CGPA 9.00 / 10
 <br><sub>Wharton Business Analytics · IIT Madras BS in Data Science (Foundation)</sub>
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
+## 🛠 Stack
 
-## 🛠 Tech stack
+<img src="assets/stack-v4.svg" alt="Python, C++, TypeScript, SQL, FastAPI, Next.js, XGBoost, scikit-learn, SHAP, pandas, PostgreSQL, MySQL, Docker, Git, GitHub Actions, Streamlit" width="100%">
 
-<p align="center"><img src="assets/stack.svg" alt="Scrolling strip of technologies: Python, FastAPI, scikit-learn, XGBoost, SHAP, Docker, Next.js and more" width="100%"></p>
+## 🤝 Contact
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=py,fastapi,sklearn,docker,git,github,nextjs,ts,postgres,mysql,supabase,vercel,linux&perline=8" alt="Python, FastAPI, scikit-learn, Docker, Git, GitHub, Next.js, TypeScript, Postgres, MySQL, Supabase, Vercel, Linux">
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white">
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white">
-<img src="https://img.shields.io/badge/XGBoost-EB5E28?style=flat-square">
-<img src="https://img.shields.io/badge/SHAP-6C63FF?style=flat-square">
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
-<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square">
-<img src="https://img.shields.io/badge/sentence--transformers-0A66C2?style=flat-square">
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white">
-</p>
-
-<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
-
-## 🧭 How I work
-
-<table>
-<tr>
-<td width="33%" valign="top"><b>📏 Measure honestly</b><br>Baselines first, held-out test sets, confidence intervals, and a benchmark that is not a strawman.</td>
-<td width="33%" valign="top"><b>📦 Ship the whole thing</b><br>API, UI, tests, CI, a model card and a runbook, not just a notebook.</td>
-<td width="33%" valign="top"><b>📝 Write down the decisions</b><br>Each project explains what was chosen, what was cut and why.</td>
-</tr>
-</table>
-
-<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
-
-## 🤝 Let's work together
-
-<div align="center">
-
-I consult on and build applied AI projects end to end: scoping the problem, modelling, the API and UI, and a deployed, documented service.
-
-[![Email me](https://img.shields.io/badge/Email-deepbendale231%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deepbendale231@gmail.com)
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepbendale/)
-
-<sub>Built with care from data to deployment.</sub>
-
-</div>
+<a href="mailto:deepbendale231@gmail.com"><img src="assets/footer-v4.svg" alt="Let's build something intelligent. deepbendale231@gmail.com, Mumbai, India" width="100%"></a>
