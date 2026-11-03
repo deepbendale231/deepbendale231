@@ -1,6 +1,6 @@
 # Hi, I'm Deep Bendale
 
-**I build ML and data products that make decisions: credit risk models, RAG systems and analytics APIs, shipped end to end with tests, docs and honest evaluation.**
+**I'm an engineer who builds ML and data systems end to end: credit risk models, RAG pipelines and analytics APIs, shipped with tests, docs and honest evaluation.**
 
 Open to freelance projects and full-time roles in ML, data and AI engineering.
 **deepbendale231@gmail.com** · [LinkedIn](https://www.linkedin.com/in/deepbendale/)
