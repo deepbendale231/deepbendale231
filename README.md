@@ -87,10 +87,12 @@ Also: [Uber NCR Ride Analytics](https://github.com/deepbendale231/Uber-Analytics
 ## 🛠 Tech stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=py,fastapi,sklearn,pandas,numpy,docker,git,github,nextjs,ts,postgres,mysql,supabase,vercel,linux&perline=8" alt="Python, FastAPI, scikit-learn, pandas, NumPy, Docker, Git, GitHub, Next.js, TypeScript, Postgres, MySQL, Supabase, Vercel, Linux">
+<img src="https://skillicons.dev/icons?i=py,fastapi,sklearn,docker,git,github,nextjs,ts,postgres,mysql,supabase,vercel,linux&perline=8" alt="Python, FastAPI, scikit-learn, Docker, Git, GitHub, Next.js, TypeScript, Postgres, MySQL, Supabase, Vercel, Linux">
 </p>
 
 <p align="center">
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white">
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white">
 <img src="https://img.shields.io/badge/XGBoost-EB5E28?style=flat-square">
 <img src="https://img.shields.io/badge/SHAP-6C63FF?style=flat-square">
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
