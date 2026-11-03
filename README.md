@@ -4,6 +4,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-deepbendale231-0D0D14?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D14&color=A855F7)](https://github.com/deepbendale231)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-deepbendale-0D0D14?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0D14&color=00E5FF)](https://www.linkedin.com/in/deepbendale/)
+[![Ainsemble](https://img.shields.io/badge/Ainsemble-DAW%20Plugin-0D0D14?style=for-the-badge&logo=musicbrainz&logoColor=white&labelColor=0D0D14&color=A855F7)](https://ainsemble.com/products/daw-plugin)
 [![Email](https://img.shields.io/badge/Email-Start%20a%20project-0D0D14?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D14&color=A855F7)](mailto:deepbendale231@gmail.com)
 
 [**About**](#-about) · [**Systems**](#-featured-systems) · [**Activity**](#-activity) · [**Experience**](#-experience) · [**Stack**](#-stack) · [**Contact**](#-contact)
@@ -43,33 +44,31 @@
 
 ## 💼 Experience
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### Software Engineering Intern, DAW Plugin Feature Lead · [Ainsemble](https://ainsemble.com/products/daw-plugin)
+<sub>Jun 2026 to present &nbsp;·&nbsp; <a href="https://ainsemble.com/products/daw-plugin">ainsemble.com/products/daw-plugin</a></sub>
 
-**Software Engineering Intern (Feature Lead)**<br>
-Ainsemble, cloud music-collaboration platform<br>
-<sub>Jun 2026 to present</sub>
+Sole engineer responsible for architecting and building Ainsemble's DAW plugin from the ground up, through backend integration, cross-platform implementation, release engineering and beta testing.
 
-- Sole engineer on a feature that syncs producers' DAW projects (GarageBand, Logic) to the cloud from inside a cross-platform C++/JUCE plugin (AU, VST3, Standalone), owned from requirements to release
-- Reverse-engineered an undocumented production platform into an integration map and wrote a 19-page phased build plan
-- Found and fixed a P0 bug where GarageBand project bundles were treated as single files and re-uploaded endlessly
-- Automated Windows and macOS installers with GitHub Actions; tested in real DAW hosts
+- **End-to-end product engineering:** owned the full feature lifecycle, from requirements and architecture to implementation, testing and release. About 34,000 lines of native C++ across 129 source files, plus a React/TypeScript WebView interface.
+- **Cross-platform DAW development:** a JUCE 8 / C++17 plugin for AU, VST3 and Standalone. macOS universal binaries for Apple Silicon and Intel, with Windows build and installer automation.
+- **Backend integration:** reverse-engineered the undocumented production architecture across Django, FastAPI services, Azure Blob Storage, Elasticsearch and Firestore. Built API clients, authentication, session restoration, account management and cloud library sync.
+- **Cloud sync and file management:** project export, import, download and restore, with bundle-aware handling of GarageBand and Logic projects, resumable Azure block uploads, upload-link refresh, duplicate handling and integrity checks.
+- **Automatic project versioning:** a checkpointed, lock-protected versioning engine using semantic file fingerprints, atomic persistence, cross-process locking and change detection, so duplicate versions and unsafe uploads are prevented.
+- **Reliability and reverse engineering:** fixed hard issues with GarageBand bundles, FL Studio project parsing and sample relinking, credential persistence, sync and session restoration, and added safeguards against accidental overwrites and inconsistent project states.
+- **Security:** per-host credential storage in macOS Keychain and Windows Credential Manager, JWT session restoration, and automatic scrubbing of sensitive data from exported diagnostic logs.
+- **Testing and release:** API, integration, concurrency and real-file round-trip tests, plus automated macOS and Windows packaging, including a signed, notarized and stapled universal macOS installer.
+- **Beta delivery:** took the plugin through implementation, validation and beta delivery as part of Ainsemble's music collaboration platform.
 
-</td>
-<td width="50%" valign="top">
+[![Ainsemble DAW Plugin](https://img.shields.io/badge/Ainsemble-DAW%20Plugin%20↗-0D0D14?style=for-the-badge&labelColor=0D0D14&color=00E5FF)](https://ainsemble.com/products/daw-plugin)
 
-**Data Science & Machine Learning Intern**<br>
-New Vision Technologies and Engineers, Mumbai<br>
+<br>
+
+### Data Science & Machine Learning Intern · New Vision Technologies and Engineers, Mumbai
 <sub>Jan 2026 to May 2026</sub>
 
 - Cut weekly reporting from about 3 hours to under 1 hour (over 65%) by automating ETL and report generation in Python and SQL
 - Raised demand-forecast R² from 0.71 to 0.86 with XGBoost on 120K+ sales and inventory records
 - Built Excel dashboards tracking 15+ KPIs for business stakeholders
-
-</td>
-</tr>
-</table>
 
 ## 🎓 Education
 
