@@ -18,7 +18,7 @@
 
 </div>
 
-<p align="center"><img src="assets/terminal-v2.svg" alt="Terminal: whoami, Deep Bendale, Applied AI Engineer and Data Scientist, Mumbai, open to freelance and full-time" width="100%"></p>
+<p align="center"><img src="assets/terminal-v3.svg" alt="Terminal: whoami, Deep Bendale, Applied AI Engineer and Data Scientist, Mumbai, open to freelance and full-time" width="100%"></p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
