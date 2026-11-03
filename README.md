@@ -33,7 +33,7 @@
 
 <img src="assets/activity-v4.svg" alt="Contribution heatmap for the last 52 weeks" width="100%">
 
-<img src="assets/langs-v4.svg" alt="Language share across public repositories and weekly coding activity" width="100%">
+<img src="assets/langs-v5.svg" alt="Language share across public repositories and weekly coding activity" width="100%">
 
 ## 💼 Experience
 
