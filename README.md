@@ -6,9 +6,15 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-deepbendale-0D0D14?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0D14&color=00E5FF)](https://www.linkedin.com/in/deepbendale/)
 [![Email](https://img.shields.io/badge/Email-Start%20a%20project-0D0D14?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D14&color=A855F7)](mailto:deepbendale231@gmail.com)
 
-[**Systems**](#-featured-systems) · [**Activity**](#-activity) · [**Experience**](#-experience) · [**Stack**](#-stack) · [**Contact**](#-contact)
+[**About**](#-about) · [**Systems**](#-featured-systems) · [**Activity**](#-activity) · [**Experience**](#-experience) · [**Stack**](#-stack) · [**Contact**](#-contact)
 
 </div>
+
+<br>
+
+## 👤 About
+
+<img src="assets/about-v1.svg" alt="About Deep Bendale. I'm an Applied AI Engineer and Data Scientist from Mumbai. I like problems where data has to become a decision someone can trust: a credit policy that explains itself, an assistant that points to its source, a dashboard that replaces a weekly spreadsheet. I build the whole path, from cleaning the data and validating the model to the API, the interface and the deploy. I also write C++ audio plugins, which keeps me honest about performance and how software behaves in the real world. I'm a B.Tech student in Information Technology at DJSCE, Mumbai, and currently lead a cloud-sync feature for a DAW plugin during my internship." width="100%">
 
 <br>
 
