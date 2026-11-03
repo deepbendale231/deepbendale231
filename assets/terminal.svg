@@ -4,11 +4,11 @@
 <circle cx='24' cy='18' r='6' fill='#ff5f56'/><circle cx='46' cy='18' r='6' fill='#ffbd2e'/><circle cx='68' cy='18' r='6' fill='#27c93f'/>
 <text x='480.0' y='23' fill='#8b949e' font-size='13' text-anchor='middle'>deep@mumbai: ~</text>
 <defs>
-<clipPath id='c0'><rect x='0' y='50' width='0' height='50'><animate attributeName='width' from='0' to='960' dur='1.6s' begin='0.3s' fill='freeze'/></rect></clipPath>
-<clipPath id='c1'><rect x='0' y='104' width='0' height='50'><animate attributeName='width' from='0' to='960' dur='1.6s' begin='2.1s' fill='freeze'/></rect></clipPath>
-<clipPath id='c2'><rect x='0' y='158' width='0' height='50'><animate attributeName='width' from='0' to='960' dur='1.6s' begin='3.9s' fill='freeze'/></rect></clipPath>
-<clipPath id='c3'><rect x='0' y='212' width='0' height='50'><animate attributeName='width' from='0' to='960' dur='1.6s' begin='5.7s' fill='freeze'/></rect></clipPath>
-<clipPath id='c4'><rect x='0' y='266' width='0' height='50'><animate attributeName='width' from='0' to='960' dur='1.6s' begin='7.5s' fill='freeze'/></rect></clipPath>
+<clipPath id='c0'><rect x='0' y='56' width='0' height='54'><animate attributeName='width' from='0' to='960' dur='1.6s' begin='0.3s' fill='freeze'/></rect></clipPath>
+<clipPath id='c1'><rect x='0' y='110' width='0' height='54'><animate attributeName='width' from='0' to='960' dur='1.6s' begin='2.1s' fill='freeze'/></rect></clipPath>
+<clipPath id='c2'><rect x='0' y='164' width='0' height='54'><animate attributeName='width' from='0' to='960' dur='1.6s' begin='3.9s' fill='freeze'/></rect></clipPath>
+<clipPath id='c3'><rect x='0' y='218' width='0' height='54'><animate attributeName='width' from='0' to='960' dur='1.6s' begin='5.7s' fill='freeze'/></rect></clipPath>
+<clipPath id='c4'><rect x='0' y='272' width='0' height='54'><animate attributeName='width' from='0' to='960' dur='1.6s' begin='7.5s' fill='freeze'/></rect></clipPath>
 </defs>
 <g clip-path='url(#c0)'><text x='24' y='78' fill='#3fb950' font-size='17'>$ <tspan fill='#e6edf3'>whoami</tspan></text><text x='24' y='102' fill='#79c0ff' font-size='15'>Deep Bendale · Applied AI Engineer &amp; Data Scientist</text></g>
 <g clip-path='url(#c1)'><text x='24' y='132' fill='#3fb950' font-size='17'>$ <tspan fill='#e6edf3'>pwd</tspan></text><text x='24' y='156' fill='#79c0ff' font-size='15'>Mumbai, India</text></g>
