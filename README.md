@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-v4.svg" alt="Deep Bendale: building intelligent systems. Applied AI Engineer, Data Scientist, Product Builder. Mumbai, India" width="100%">
+<img src="assets/hero-v5.svg" alt="Deep Bendale: building intelligent systems. Applied AI Engineer, Systems Builder, Product Builder. Mumbai, India" width="100%">
 
 [![GitHub](https://img.shields.io/badge/GitHub-deepbendale231-0D0D14?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D14&color=A855F7)](https://github.com/deepbendale231)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-deepbendale-0D0D14?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0D14&color=00E5FF)](https://www.linkedin.com/in/deepbendale/)
