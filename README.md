@@ -1,60 +1,127 @@
 <div align="center">
 
-# Hi, I'm Deep Bendale
+<img src="assets/banner.svg" alt="Deep Bendale: Engineer, ML and data systems" width="100%">
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-deepbendale231-181717?style=for-the-badge&logo=github)](https://github.com/deepbendale231)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-deepbendale-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepbendale/)
+[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deepbendale231@gmail.com)
+
+# Hi there 👋, I'm Deep
 
 **I'm an engineer who builds ML and data systems end to end: credit risk models, RAG pipelines and analytics APIs, shipped with tests, docs and honest evaluation.**
 
-Open to freelance projects and full-time roles in ML, data and AI engineering.
+🟢 Open to freelance projects and full-time roles in ML, data and AI engineering.
 
-[![Email](https://img.shields.io/badge/Email-deepbendale231%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:deepbendale231@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-deepbendale-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepbendale/)
-
-[**Selected work**](#selected-work) · [**Stack**](#stack) · [**How I work**](#how-i-work)
+[**Selected work**](#-selected-work) · [**Tech stack**](#-tech-stack) · [**How I work**](#-how-i-work) · [**Contact**](#-lets-work-together)
 
 </div>
 
 ---
 
-## Selected work
+## 📊 Work in numbers
+
+<p align="center"><img src="assets/metrics.svg" alt="0.763 ROC-AUC on a credit risk model, 3.84 points more approvals at the same default rate, 307K loan applications, 150K ride bookings, 3,240 air-quality readings" width="100%"></p>
+
+---
+
+## 🚀 Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### [Credit Decisioning Engine](https://github.com/deepbendale231/credit-decisioning-engine)
-Eligibility rules, then a calibrated, monotone XGBoost default-risk model, then an approve / refer / decline policy with SHAP reason codes. FastAPI decision API, Streamlit demo, CI, Docker.
-- Trained on 307K applications and 1.67M prior applications (Kaggle Home Credit)
-- ROC-AUC **0.763** on a held-out test split, with bootstrap confidence intervals
-- Approves **3.84 pts more applicants** than the best tuned rules-only policy at the same default rate
-- Includes a model card, fairness audit, drift monitor and runbook
+Rules, then a calibrated XGBoost risk model, then an approve / refer / decline policy with SHAP reason codes. FastAPI, Streamlit, CI, Docker.
+
+- ROC-AUC **0.763** on a held-out test split
+- **+3.84 pts** approvals vs the best tuned rules at the same default rate
+- Model card, fairness audit, drift monitor, runbook
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![XGBoost](https://img.shields.io/badge/-XGBoost-EB5E28) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
 
 ### [Digital Lending Journey Teardown](https://github.com/deepbendale231/lending-journey-teardown)
 A product teardown of a digital lending flow: friction log, RBI digital-lending checklist, RICE prioritisation, user stories, PRD, A/B test plan and metrics tree.
 
+- Evidence-led, backed by 21 screenshots
+- Compliance checklist signed off after a full re-read
+
+![Product](https://img.shields.io/badge/-Product%20analysis-8957E5) ![PRD](https://img.shields.io/badge/-PRD%20%2B%20A%2FB%20plan-0969DA)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [RAG Teaching Assistant](https://github.com/deepbendale231/RAG-BASED-Teaching-LLM)
+Turns video lectures into a searchable index (transcribe, chunk, embed, retrieve) and answers with the video and timestamp to watch, using a local LLM.
+
+- 11 videos, 105 timestamped chunks
+- Local embeddings and local llama3.2 via Ollama
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Ollama](https://img.shields.io/badge/-Ollama-000000) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
 ### [Pollution Analytics](https://github.com/deepbendale231/Pollution-Analytics)
 Air-quality analysis and AQI prediction across Indian cities: 3,240 readings across 270 cities, a Random Forest model (R² 0.95, MAE 6.4), FastAPI backend and Streamlit dashboard.
 
-### [RAG Teaching Assistant](https://github.com/deepbendale231/RAG-BASED-Teaching-LLM)
-Turns video lectures into a searchable knowledge base (transcribe, chunk, embed, retrieve) and answers questions with a local LLM.
+- Delhi-NCR cities dominate the top-10 most polluted
+- Streamlit dashboard and FastAPI backend
 
-### [HouseIQ](https://github.com/deepbendale231/House-Prediction-ML-Model-)
-House-price prediction (R² 0.83 on California housing) with a scikit-learn pipeline, FastAPI service, Next.js frontend and Supabase.
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 
----
+</td>
+</tr>
+</table>
 
-## Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-EB5E28)
-![SHAP](https://img.shields.io/badge/SHAP-6C63FF)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+Also: [Uber NCR Ride Analytics](https://github.com/deepbendale231/Uber-Analytics) (150K bookings, API and dashboard) and [HouseIQ](https://github.com/deepbendale231/House-Prediction-ML-Model-) (house-price model with a Next.js frontend).
 
 ---
 
-## How I work
+## 🛠 Tech stack
 
-- **Measure honestly.** Baselines first, held-out test sets, confidence intervals, and a benchmark that is not a strawman.
-- **Ship the whole thing.** API, UI, tests, CI, a model card and a runbook, not just a notebook.
-- **Write down the decisions.** Each project explains what was chosen, what was cut and why.
+<p align="center">
+<img src="https://skillicons.dev/icons?i=py,fastapi,sklearn,pandas,numpy,docker,git,github,nextjs,ts,postgres,mysql,supabase,vercel,linux&perline=8" alt="Python, FastAPI, scikit-learn, pandas, NumPy, Docker, Git, GitHub, Next.js, TypeScript, Postgres, MySQL, Supabase, Vercel, Linux">
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/XGBoost-EB5E28?style=flat-square">
+<img src="https://img.shields.io/badge/SHAP-6C63FF?style=flat-square">
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square">
+<img src="https://img.shields.io/badge/sentence--transformers-0A66C2?style=flat-square">
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white">
+</p>
+
+---
+
+## 🧭 How I work
+
+<table>
+<tr>
+<td width="33%" valign="top"><b>📏 Measure honestly</b><br>Baselines first, held-out test sets, confidence intervals, and a benchmark that is not a strawman.</td>
+<td width="33%" valign="top"><b>📦 Ship the whole thing</b><br>API, UI, tests, CI, a model card and a runbook, not just a notebook.</td>
+<td width="33%" valign="top"><b>📝 Write down the decisions</b><br>Each project explains what was chosen, what was cut and why.</td>
+</tr>
+</table>
+
+---
+
+## 🤝 Let's work together
+
+<div align="center">
+
+I take on ML, data and API projects end to end, from messy data to a deployed, documented service.
+
+[![Email me](https://img.shields.io/badge/Email-deepbendale231%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deepbendale231@gmail.com)
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepbendale/)
+
+<sub>Built with care from data to deployment.</sub>
+
+</div>

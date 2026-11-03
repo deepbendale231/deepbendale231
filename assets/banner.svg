@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="0.55" stop-color="#101a2b"/><stop offset="1" stop-color="#16243d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <style>
+      .fade{animation:fade 1.4s ease-out both}
+      .d1{animation-delay:.15s}.d2{animation-delay:.45s}.d3{animation-delay:.75s}
+      @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+      .pulse{animation:pulse 3s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:.25}50%{opacity:.6}}
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
+  <g stroke="#58a6ff" stroke-opacity=".10">
+    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/><path d="M150 0V300M300 0V300M450 0V300M600 0V300M750 0V300M900 0V300M1050 0V300"/>
+  </g>
+  <circle class="pulse" cx="1010" cy="95" r="70" fill="none" stroke="url(#accent)" stroke-width="2"/>
+  <circle class="pulse" cx="1010" cy="95" r="38" fill="none" stroke="url(#accent)" stroke-width="2"/>
+  <circle cx="1010" cy="95" r="6" fill="#58a6ff"/>
+  <g stroke="#58a6ff" stroke-opacity=".5" fill="none"><path d="M870 210L930 170L990 190L1050 140L1110 160"/></g>
+  <g fill="#3fb950"><circle cx="870" cy="210" r="4"/><circle cx="930" cy="170" r="4"/><circle cx="990" cy="190" r="4"/><circle cx="1050" cy="140" r="4"/><circle cx="1110" cy="160" r="4"/></g>
+  <text class="fade d1" x="70" y="130" fill="#e6edf3" font-size="62" font-weight="700" letter-spacing="1">Deep Bendale</text>
+  <rect class="fade d2" x="72" y="148" width="150" height="5" rx="2.5" fill="url(#accent)"/>
+  <text class="fade d2" x="70" y="195" fill="#58a6ff" font-size="26" font-weight="600">Engineer · ML &amp; Data Systems</text>
+  <text class="fade d3" x="70" y="240" fill="#8b949e" font-size="20">github.com/deepbendale231   ·   linkedin.com/in/deepbendale</text>
+</svg>
