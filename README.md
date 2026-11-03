@@ -14,7 +14,7 @@
 
 🟢 Open to freelance projects and full-time Applied AI / ML / data science roles.
 
-[**Selected work**](#-selected-work) · [**Tech stack**](#-tech-stack) · [**How I work**](#-how-i-work) · [**Contact**](#-lets-work-together)
+[**Selected work**](#-selected-work) · [**Experience**](#-experience) · [**Tech stack**](#-tech-stack) · [**How I work**](#-how-i-work) · [**Contact**](#-lets-work-together)
 
 </div>
 
@@ -81,6 +81,43 @@ Air-quality analysis and AQI prediction across Indian cities: 3,240 readings acr
 </table>
 
 Also: [Uber NCR Ride Analytics](https://github.com/deepbendale231/Uber-Analytics) (150K bookings, API and dashboard) and [HouseIQ](https://github.com/deepbendale231/House-Prediction-ML-Model-) (house-price model with a Next.js frontend).
+
+---
+
+## 💼 Experience
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Software Engineering Intern (Feature Lead)**<br>
+Ainsemble, cloud music-collaboration platform<br>
+<sub>Jun 2026 to present</sub>
+
+- Sole engineer on a feature that syncs producers' DAW projects (GarageBand, Logic) to the cloud from inside a cross-platform C++/JUCE plugin (AU, VST3, Standalone), owned from requirements to release
+- Reverse-engineered an undocumented production platform into an integration map and wrote a 19-page phased build plan
+- Found and fixed a P0 bug where GarageBand project bundles were treated as single files and re-uploaded endlessly
+- Automated Windows and macOS installers with GitHub Actions; tested in real DAW hosts
+
+</td>
+<td width="50%" valign="top">
+
+**Data Science & Machine Learning Intern**<br>
+New Vision Technologies and Engineers, Mumbai<br>
+<sub>Jan 2026 to May 2026</sub>
+
+- Cut weekly reporting from about 3 hours to under 1 hour (over 65%) by automating ETL and report generation in Python and SQL
+- Raised demand-forecast R² from 0.71 to 0.86 with XGBoost on 120K+ sales and inventory records
+- Built Excel dashboards tracking 15+ KPIs for business stakeholders
+
+</td>
+</tr>
+</table>
+
+## 🎓 Education
+
+**B.Tech, Information Technology**: Dwarkadas J. Sanghvi College of Engineering, Mumbai · 2023 to May 2027 · CGPA 9.00 / 10
+<br><sub>Wharton Business Analytics · IIT Madras BS in Data Science (Foundation)</sub>
 
 ---
 
