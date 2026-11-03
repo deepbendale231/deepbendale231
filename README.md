@@ -80,7 +80,7 @@ Air-quality analysis and AQI prediction across Indian cities: 3,240 readings acr
 </tr>
 </table>
 
-Also: [Uber NCR Ride Analytics](https://github.com/deepbendale231/Uber-Analytics) (150K bookings, API and dashboard) and [HouseIQ](https://github.com/deepbendale231/House-Prediction-ML-Model-) (house-price model with a Next.js frontend).
+Also: [Uber NCR Ride Analytics](https://github.com/deepbendale231/Uber-Analytics) (150K bookings, API and [live dashboard](https://uber-analytics.onrender.com)) and [HouseIQ](https://github.com/deepbendale231/House-Prediction-ML-Model-) (house-price model with a Next.js frontend).
 
 ---
 
