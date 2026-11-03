@@ -1,9 +1,17 @@
+<div align="center">
+
 # Hi, I'm Deep Bendale
 
 **I'm an engineer who builds ML and data systems end to end: credit risk models, RAG pipelines and analytics APIs, shipped with tests, docs and honest evaluation.**
 
 Open to freelance projects and full-time roles in ML, data and AI engineering.
-**deepbendale231@gmail.com** · [LinkedIn](https://www.linkedin.com/in/deepbendale/)
+
+[![Email](https://img.shields.io/badge/Email-deepbendale231%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:deepbendale231@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-deepbendale-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepbendale/)
+
+[**Selected work**](#selected-work) · [**Stack**](#stack) · [**How I work**](#how-i-work)
+
+</div>
 
 ---
 
